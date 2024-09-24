@@ -1,0 +1,6 @@
+Scaffold-DbContext Data Source=DESKTOP-OAVP92F\SQLEXPRESS;Initial Catalog=EmployeeDatabse;Integrated Security=True;Encrypt=True;Trust Server Certificate=True
+
+
+Scaffold-DbContext 'Data Source=DESKTOP-OAVP92F\SQLEXPRESS;Initial Catalog="Personal Finance Tracker";User ID=sa;Password=***********;Trust Server Certificate=True' Microsoft.EntityFrameworkCore.SqlServer -ContextDir "../SE.Services/DbContext" -f
+
+Scaffold-DbContext 'Data Source=DESKTOP-OAVP92F\SQLEXPRESS;Initial Catalog="Personal Finance Tracker";User ID=sa;Password=abc123;Trust Server Certificate=True' Microsoft.EntityFrameworkCore.SqlServer -ContextDir "../SE.Services/DbContext" -f

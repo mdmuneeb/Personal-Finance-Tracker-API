@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\5th semester\\SE Project\\SE API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64215E91-3DEE-43C5-B4F4-867730615E30}|Solution Items{64215E91-3DEE-43C5-B4F4-867730615E30}|D:\\5th semester\\SE Project\\SE API\\ref.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{64215E91-3DEE-43C5-B4F4-867730615E30}|Solution Items{64215E91-3DEE-43C5-B4F4-867730615E30}|solutionrelative:ref.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|d:\\5th semester\\se project\\se api\\se api\\controllers\\usertokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|solutionrelative:se api\\controllers\\usertokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|d:\\5th semester\\se project\\se api\\se api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|solutionrelative:se api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|d:\\5th semester\\se project\\se api\\se api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|solutionrelative:se api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|d:\\5th semester\\se project\\se api\\se api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|solutionrelative:se api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ref.txt",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\ref.txt",
+              "RelativeDocumentMoniker": "ref.txt",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\ref.txt",
+              "RelativeToolTip": "ref.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-24T15:58:51.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\Program.cs",
+              "RelativeDocumentMoniker": "SE API\\Program.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE API\\Program.cs",
+              "RelativeToolTip": "SE API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T19:49:04.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\appsettings.json",
+              "RelativeDocumentMoniker": "SE API\\appsettings.json",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE API\\appsettings.json",
+              "RelativeToolTip": "SE API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T19:48:18.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserTokenController.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\UserTokenController.cs",
+              "RelativeDocumentMoniker": "SE API\\Controllers\\UserTokenController.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\UserTokenController.cs",
+              "RelativeToolTip": "SE API\\Controllers\\UserTokenController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAArwDgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T19:38:26.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "SE API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "SE API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T19:35:43.083Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

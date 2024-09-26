@@ -12,3 +12,4 @@ D:\5th semester\SE Project\SE API\SE.Models\obj\Debug\net8.0\refint\SE.Models.dl
 D:\5th semester\SE Project\SE API\SE.Models\obj\Debug\net8.0\SE.Models.pdb
 D:\5th semester\SE Project\SE API\SE.Models\obj\Debug\net8.0\SE.Models.genruntimeconfig.cache
 D:\5th semester\SE Project\SE API\SE.Models\obj\Debug\net8.0\ref\SE.Models.dll
+D:\5th semester\SE Project\SE API\SE.Models\obj\Debug\net8.0\SE.Models.sourcelink.json

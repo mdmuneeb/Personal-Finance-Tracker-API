@@ -10,3 +10,9 @@ D:\5th semester\SE Project\SE API\SE.Services\obj\Debug\net8.0\refint\SE.Service
 D:\5th semester\SE Project\SE API\SE.Services\obj\Debug\net8.0\SE.Services.pdb
 D:\5th semester\SE Project\SE API\SE.Services\obj\Debug\net8.0\ref\SE.Services.dll
 D:\5th semester\SE Project\SE API\SE.Services\obj\Debug\net8.0\SE.Services.csproj.AssemblyReference.cache
+D:\5th semester\SE Project\SE API\SE.Services\bin\Debug\net8.0\SE.Services.runtimeconfig.json
+D:\5th semester\SE Project\SE API\SE.Services\bin\Debug\net8.0\SE.Models.dll
+D:\5th semester\SE Project\SE API\SE.Services\bin\Debug\net8.0\SE.Models.pdb
+D:\5th semester\SE Project\SE API\SE.Services\obj\Debug\net8.0\SE.Services.sourcelink.json
+D:\5th semester\SE Project\SE API\SE.Services\obj\Debug\net8.0\SE.Servi.9D828CC1.Up2Date
+D:\5th semester\SE Project\SE API\SE.Services\obj\Debug\net8.0\SE.Services.genruntimeconfig.cache

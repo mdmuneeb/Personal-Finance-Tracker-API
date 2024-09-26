@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "login",
-        "Type": "SE.Models.UserModel",
+        "Type": "SE.Models.DTOS.UserModel",
         "IsRequired": true
       }
     ],

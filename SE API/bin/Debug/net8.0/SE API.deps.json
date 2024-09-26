@@ -907,7 +907,8 @@
       "SE.Services/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.8",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+          "SE.Models": "1.0.0"
         },
         "runtime": {
           "SE.Services.dll": {

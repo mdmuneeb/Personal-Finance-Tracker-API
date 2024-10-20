@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using SE.Models;
+using SE.Services.Inteface;
+using SE.Services.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -64,7 +66,7 @@ builder.Services.AddAuthorization();
 
 builder.Services.AddDbContext<PersonalFinanceTrackerContext>(options =>
            options.UseSqlServer(builder.Configuration.GetConnectionString("AppConnection")));
-
+builder.Services.AddScoped<IUser, UserService>();
 
 var app = builder.Build();
 

@@ -1,15 +1,31 @@
 [
   {
     "ContainingType": "SE_API.Controllers.UserTokenController",
-    "Method": "Login",
-    "RelativePath": "api/UserToken",
+    "Method": "GetUser",
+    "RelativePath": "api/UserToken/GetUser",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "login",
-        "Type": "SE.Models.DTOS.UserModel",
+        "Name": "userData",
+        "Type": "SE.Models.DTOS.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.UserTokenController",
+    "Method": "UserLogin",
+    "RelativePath": "api/UserToken/UserLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userData",
+        "Type": "SE.Models.UserInformation",
         "IsRequired": true
       }
     ],

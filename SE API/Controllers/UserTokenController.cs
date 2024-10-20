@@ -1,8 +1,12 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Azure;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using SE.Models;
 using SE.Models.DTOS;
+using SE.Services.Inteface;
+using SE_API.Enum;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -14,14 +18,16 @@ namespace SE_API.Controllers
     public class UserTokenController : ControllerBase
     {
         private readonly IConfiguration _config;
-        public UserTokenController(IConfiguration config)
+        private readonly IUser _userService;
+        public UserTokenController(IConfiguration config, IUser userservice)
         {
             _config = config;
+            _userService = userservice;
         }
         private UserModel AuthenticateUser(UserModel login)
         {
             UserModel user = null;
-            if (login?.UserType.ToLower() == "admin" || login?.UserType.ToLower() == "customer")
+            if (login?.UserType.ToLower() == "admin" || login?.UserType.ToLower() == "user")
             {
                 user = new UserModel
                 {
@@ -65,26 +71,69 @@ namespace SE_API.Controllers
 
         }
 
+        //[AllowAnonymous]
+        //[HttpPost]
+        //private async Task<UserModel> Login( UserModel login)
+        //{
+    //    IActionResult response = Unauthorized();
+    //    var user = AuthenticateUser(login);
+    //    UserModel tokenG = null;
+
+    //        if (user != null)
+    //        {
+    //            var tokenString = GenerateJsonWebToken(user);
+    //    //response = Ok(new { token = tokenString });
+    //    response = Ok(FormatToUserModel(login, tokenString));
+    //    tokenG = FormatToUserModel(login, tokenString);
+    //}
+    //        if (tokenG == null)
+    //        {
+    //            return Ok(new { Messsage = "There is some error response is returning null" });
+    //        }
+    //        return Ok(tokenG);
+//}
+[AllowAnonymous]
+        [HttpPost]
+        [Route("UserLogin")]
+        public async Task<IActionResult> UserLogin(UserInformation userData)
+        {
+
+            var data = await _userService.PostUser(userData);
+            return Ok(data);
+        }
+
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult Login([FromBody] UserModel login)
+        [Route("GetUser")]
+        public async Task<IActionResult> GetUser(UserDTO userData)
         {
-            IActionResult response = Unauthorized();
-            var user = AuthenticateUser(login);
-            UserModel tokenG = null;
+            var data = await _userService.getUserLogin(userData);
+            if(data != null)
+            {
+                RoleEnum role = (RoleEnum)data.UserType;
+                UserModel login = new UserModel
+                {
+                    UserType = role.ToString()
+                };
 
-            if (user != null)
-            {
-                var tokenString = GenerateJsonWebToken(user);
-                //response = Ok(new { token = tokenString });
-                response = Ok(FormatToUserModel(login, tokenString));
-                tokenG = FormatToUserModel(login, tokenString);
+                IActionResult response = Unauthorized();
+                var user = AuthenticateUser(login);
+                UserModel tokenG = null;
+
+                if (user != null)
+                {
+                    var tokenString = GenerateJsonWebToken(user);
+                    //response = Ok(new { token = tokenString });
+                    response = Ok(FormatToUserModel(login, tokenString));
+                    tokenG = FormatToUserModel(login, tokenString);
+                }
+                if (tokenG == null)
+                {
+                    return Ok(new { Messsage = "There is some error response is returning null" });
+                }
+                return Ok(tokenG);
             }
-            if (tokenG == null)
-            {
-                return Ok(new { Messsage = "There is some error response is returning null" });
-            }
-            return Ok(tokenG);
+            return BadRequest();
         }
     }
 }

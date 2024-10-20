@@ -12,4 +12,10 @@ namespace SE.Models.DTOS
         public string? UserType { get; set; }
         public string? Token { get; set; }
     }
+
+    public class UserDTO 
+    {
+        public string? LEmail { get; set; }
+        public string? LPassword { get; set; }
+    }
 }

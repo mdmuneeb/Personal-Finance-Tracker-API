@@ -35,13 +35,12 @@ public partial class PersonalFinanceTrackerContext : DbContext
 
         modelBuilder.Entity<UserInformation>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("UserInformation");
+            entity.HasKey(e => e.Id).HasName("PK__UserInfo__3214EC079919F254");
+
+            entity.ToTable("UserInformation");
 
             entity.Property(e => e.Email).IsUnicode(false);
             entity.Property(e => e.FailedLoginAttempts).HasDefaultValue(0);
-            entity.Property(e => e.Id).ValueGeneratedOnAdd();
             entity.Property(e => e.IsEmailVerified).HasColumnName("isEmailVerified");
             entity.Property(e => e.Password).IsUnicode(false);
             entity.Property(e => e.PhoneNumber)

@@ -5,8 +5,6 @@ namespace SE.Models;
 
 public partial class UserInformation
 {
-    public int Id { get; set; }
-
     public string UserName { get; set; } = null!;
 
     public bool? IsLocked { get; set; }
@@ -24,4 +22,6 @@ public partial class UserInformation
     public string? ProfilePicture { get; set; }
 
     public string? PhoneNumber { get; set; }
+
+    public int Id { get; set; }
 }

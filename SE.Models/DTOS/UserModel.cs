@@ -10,6 +10,7 @@ namespace SE.Models.DTOS
     public class UserModel
     {
         public string? UserType { get; set; }
+        public string? UserName { get; set; }
         public string? Token { get; set; }
     }
 
@@ -17,5 +18,13 @@ namespace SE.Models.DTOS
     {
         public string? LEmail { get; set; }
         public string? LPassword { get; set; }
+    }
+
+    public class LoginResult
+    {
+        public bool? IsSuccess { get; set; }
+        public string? Message { get; set; }
+        public UserInformation? User { get; set; }
+        public string? Token { get; set; }
     }
 }

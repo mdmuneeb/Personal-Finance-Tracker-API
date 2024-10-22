@@ -15,7 +15,17 @@ public partial class PersonalFinanceTrackerContext : DbContext
     {
     }
 
+    public virtual DbSet<CategoriesType> CategoriesTypes { get; set; }
+
+    public virtual DbSet<Goal> Goals { get; set; }
+
+    public virtual DbSet<RepeatedTransaction> RepeatedTransactions { get; set; }
+
     public virtual DbSet<Role> Roles { get; set; }
+
+    public virtual DbSet<Transaction> Transactions { get; set; }
+
+    public virtual DbSet<TransactionType> TransactionTypes { get; set; }
 
     public virtual DbSet<UserInformation> UserInformations { get; set; }
 
@@ -25,12 +35,65 @@ public partial class PersonalFinanceTrackerContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<CategoriesType>(entity =>
+        {
+            entity.HasKey(e => e.CategoryId).HasName("PK__Categori__19093A0B71D825C4");
+
+            entity.ToTable("CategoriesType");
+
+            entity.Property(e => e.CategoryName).IsUnicode(false);
+        });
+
+        modelBuilder.Entity<Goal>(entity =>
+        {
+            entity.HasKey(e => e.GoalId).HasName("PK__Goals__8A4FFFD1EAE11BBA");
+
+            entity.Property(e => e.CreatedDate).IsUnicode(false);
+            entity.Property(e => e.Deadlline).IsUnicode(false);
+            entity.Property(e => e.DeleteTransaction).HasDefaultValue(false);
+            entity.Property(e => e.DeletedDate).IsUnicode(false);
+            entity.Property(e => e.GoalName).IsUnicode(false);
+            entity.Property(e => e.UpdatedDate).IsUnicode(false);
+        });
+
+        modelBuilder.Entity<RepeatedTransaction>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Repeated__3214EC0727D79F5B");
+
+            entity.ToTable("RepeatedTransaction");
+
+            entity.Property(e => e.DeletedDate).IsUnicode(false);
+            entity.Property(e => e.Description).IsUnicode(false);
+            entity.Property(e => e.Frequency).IsUnicode(false);
+            entity.Property(e => e.TransactionDate).IsUnicode(false);
+            entity.Property(e => e.UpdatedDate).IsUnicode(false);
+        });
+
         modelBuilder.Entity<Role>(entity =>
         {
             entity.HasNoKey();
 
             entity.Property(e => e.Id).ValueGeneratedOnAdd();
             entity.Property(e => e.RoleName).IsUnicode(false);
+        });
+
+        modelBuilder.Entity<Transaction>(entity =>
+        {
+            entity.HasKey(e => e.TransactionId).HasName("PK__Transact__55433A6BC80777C6");
+
+            entity.Property(e => e.DeletedDate).IsUnicode(false);
+            entity.Property(e => e.Description).IsUnicode(false);
+            entity.Property(e => e.TransactionDate).IsUnicode(false);
+            entity.Property(e => e.UpdatedDate).IsUnicode(false);
+        });
+
+        modelBuilder.Entity<TransactionType>(entity =>
+        {
+            entity.HasKey(e => e.TransactionTypeId).HasName("PK__Transact__20266D0BF48C56AB");
+
+            entity.ToTable("TransactionType");
+
+            entity.Property(e => e.TransactionName).IsUnicode(false);
         });
 
         modelBuilder.Entity<UserInformation>(entity =>

@@ -10,7 +10,7 @@ namespace SE.Services.Inteface
 {
     public interface IUser
     {
-        Task<UserInformation> PostUser(UserInformation user);
-        Task<UserInformation> getUserLogin(UserDTO userData);
+        Task<LoginResult> PostUser(UserInformation user);
+        Task<LoginResult> getUserLogin(UserDTO userData);
     }
 }

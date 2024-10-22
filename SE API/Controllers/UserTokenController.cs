@@ -59,16 +59,10 @@ namespace SE_API.Controllers
         {
             if (!string.IsNullOrWhiteSpace(token))
             {
-                var User = new UserModel()
-                {
-                    UserType = userData.UserType,
-                    Token = token
-                };
-                return User;
+                userData.Token = token;
+                return userData;
             }
-
             return null;
-
         }
 
         //[AllowAnonymous]
@@ -108,12 +102,13 @@ namespace SE_API.Controllers
         public async Task<IActionResult> GetUser(UserDTO userData)
         {
             var data = await _userService.getUserLogin(userData);
-            if(data != null)
+            if(data != null && data?.User != null && data?.User?.UserType != null)
             {
-                RoleEnum role = (RoleEnum)data.UserType;
+                RoleEnum role = (RoleEnum)data.User.UserType;
                 UserModel login = new UserModel
                 {
-                    UserType = role.ToString()
+                    UserType = role.ToString(),
+                    UserName = data?.User?.UserName,
                 };
 
                 IActionResult response = Unauthorized();

@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "SE_API.Controllers.TransactionController",
+    "Method": "PostTransaction",
+    "RelativePath": "api/Transaction/PostTransaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionDTO",
+        "Type": "SE.Models.DTOS.TransactionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SE_API.Controllers.UserTokenController",
     "Method": "GetUser",
     "RelativePath": "api/UserToken/GetUser",

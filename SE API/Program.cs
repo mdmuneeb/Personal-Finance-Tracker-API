@@ -67,6 +67,7 @@ builder.Services.AddAuthorization();
 builder.Services.AddDbContext<PersonalFinanceTrackerContext>(options =>
            options.UseSqlServer(builder.Configuration.GetConnectionString("AppConnection")));
 builder.Services.AddScoped<IUser, UserService>();
+builder.Services.AddScoped<ITransaction, transactionService>();
 
 var app = builder.Build();
 

@@ -8,8 +8,6 @@
 
   <ItemGroup>
     <Folder Include="DbContext\" />
-    <Folder Include="Inteface\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>

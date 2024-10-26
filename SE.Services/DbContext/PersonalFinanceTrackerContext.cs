@@ -17,6 +17,8 @@ public partial class PersonalFinanceTrackerContext : DbContext
 
     public virtual DbSet<CategoriesType> CategoriesTypes { get; set; }
 
+    public virtual DbSet<CategoryTypeExpense> CategoryTypeExpenses { get; set; }
+
     public virtual DbSet<Goal> Goals { get; set; }
 
     public virtual DbSet<RepeatedTransaction> RepeatedTransactions { get; set; }
@@ -40,6 +42,15 @@ public partial class PersonalFinanceTrackerContext : DbContext
             entity.HasKey(e => e.CategoryId).HasName("PK__Categori__19093A0B71D825C4");
 
             entity.ToTable("CategoriesType");
+
+            entity.Property(e => e.CategoryName).IsUnicode(false);
+        });
+
+        modelBuilder.Entity<CategoryTypeExpense>(entity =>
+        {
+            entity.HasKey(e => e.CategoryId).HasName("PK__category__19093A0B26567AD5");
+
+            entity.ToTable("categoryTypeExpense");
 
             entity.Property(e => e.CategoryName).IsUnicode(false);
         });

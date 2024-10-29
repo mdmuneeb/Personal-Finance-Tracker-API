@@ -1,5 +1,142 @@
 [
   {
+    "ContainingType": "SE_API.Controllers.CategoryController",
+    "Method": "AddCategoryExpense",
+    "RelativePath": "api/Category/AddCategoryExpense",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryData",
+        "Type": "SE.Models.CategoryTypeExpense",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.CategoryController",
+    "Method": "AddCategoryIncome",
+    "RelativePath": "api/Category/AddCategoryIncome",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryData",
+        "Type": "SE.Models.CategoriesTypeExpense",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.CategoryController",
+    "Method": "getExpenseCategory",
+    "RelativePath": "api/Category/GetCategoryExpense",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.CategoryController",
+    "Method": "getIncomeCategory",
+    "RelativePath": "api/Category/GetCategoryIncome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.GoalController",
+    "Method": "GetAllGoalByUserId",
+    "RelativePath": "api/Goal/GetAllGoalByUserId/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.GoalController",
+    "Method": "PostPostGoal",
+    "RelativePath": "api/Goal/PostGoal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "goal",
+        "Type": "SE.Models.Goal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.GoalController",
+    "Method": "UpdateGoal",
+    "RelativePath": "api/Goal/UpdateGoal",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "goal",
+        "Type": "SE.Models.Goal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.TransactionController",
+    "Method": "GettransById",
+    "RelativePath": "api/Transaction/GetTransactionById/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.TransactionController",
+    "Method": "getTransactionByTransactionIdUserId",
+    "RelativePath": "api/Transaction/GetTransactionByUserIdTransactionId/{userId}/{transactionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "transactionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SE_API.Controllers.TransactionController",
     "Method": "PostTransaction",
     "RelativePath": "api/Transaction/PostTransaction",
@@ -10,6 +147,22 @@
       {
         "Name": "transactionDTO",
         "Type": "SE.Models.DTOS.TransactionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.TransactionController",
+    "Method": "PutTransaction",
+    "RelativePath": "api/Transaction/UpdateTransaction",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionData",
+        "Type": "SE.Models.Transaction",
         "IsRequired": true
       }
     ],

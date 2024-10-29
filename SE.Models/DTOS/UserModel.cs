@@ -9,6 +9,7 @@ namespace SE.Models.DTOS
 {
     public class UserModel
     {
+        public int userId { get; set; }
         public string? UserType { get; set; }
         public string? UserName { get; set; }
         public string? Token { get; set; }

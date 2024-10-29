@@ -15,7 +15,7 @@ public partial class PersonalFinanceTrackerContext : DbContext
     {
     }
 
-    public virtual DbSet<CategoriesType> CategoriesTypes { get; set; }
+    public virtual DbSet<CategoriesTypeExpense> CategoriesTypes { get; set; }
 
     public virtual DbSet<CategoryTypeExpense> CategoryTypeExpenses { get; set; }
 
@@ -37,7 +37,7 @@ public partial class PersonalFinanceTrackerContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<CategoriesType>(entity =>
+        modelBuilder.Entity<CategoriesTypeExpense>(entity =>
         {
             entity.HasKey(e => e.CategoryId).HasName("PK__Categori__19093A0B71D825C4");
 

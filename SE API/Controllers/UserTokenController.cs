@@ -109,6 +109,7 @@ namespace SE_API.Controllers
                 {
                     UserType = role.ToString(),
                     UserName = data?.User?.UserName,
+                    userId = data.User.Id,
                 };
 
                 IActionResult response = Unauthorized();

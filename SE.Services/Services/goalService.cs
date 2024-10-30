@@ -57,6 +57,10 @@ namespace SE.Services.Services
             {
                 if (existingGoal != null)
                 {
+                    if(newGoal.DeletedDate != null)
+                    {
+                        newGoal.DeleteTransaction = true;
+                    }
                     _context.Entry(existingGoal).CurrentValues.SetValues(newGoal);
                     await _context.SaveChangesAsync();
                     await transaction.CommitAsync();

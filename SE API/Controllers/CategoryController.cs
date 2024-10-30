@@ -18,7 +18,7 @@ namespace SE_API.Controllers
 
         [HttpPost]
         [Route("AddCategoryIncome")]
-        public async Task<IActionResult> AddCategoryIncome([FromBody] CategoriesTypeExpense categoryData)
+        public async Task<IActionResult> AddCategoryIncome([FromBody] CategoriesType categoryData)
         {
             try
             {

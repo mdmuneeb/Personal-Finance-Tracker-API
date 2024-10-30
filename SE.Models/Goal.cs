@@ -20,4 +20,6 @@ public partial class Goal
     public string? DeletedDate { get; set; }
 
     public bool? DeleteTransaction { get; set; }
+
+    public bool? Done { get; set; }
 }

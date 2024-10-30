@@ -9,8 +9,8 @@ namespace SE.Services.Inteface
 {
     public interface ICategory
     {
-        Task<CategoriesTypeExpense> AddIncomeCategory(CategoriesTypeExpense category);
-        Task<List<CategoriesTypeExpense>> GetIncomeCategory();
+        Task<CategoriesType> AddIncomeCategory(CategoriesType category);
+        Task<List<CategoriesType>> GetIncomeCategory();
         Task<CategoryTypeExpense> AddExpenseCategory(CategoryTypeExpense category);
         Task<List<CategoryTypeExpense>> GetExpenseCategory();
     }

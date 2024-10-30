@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SE.Models;
 
-public partial class CategoriesTypeExpense
+public partial class CategoriesType
 {
     public int CategoryId { get; set; }
 

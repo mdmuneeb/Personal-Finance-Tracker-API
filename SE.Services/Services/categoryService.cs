@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 
 namespace SE.Services.Services
 {
-    public class categoryService: BaseService<CategoriesTypeExpense>, ICategory
+    public class categoryService: BaseService<CategoriesType>, ICategory
     {
         public categoryService(PersonalFinanceTrackerContext context): base(context)
         {
             
         }
 
-        public async Task<CategoriesTypeExpense> AddIncomeCategory(CategoriesTypeExpense category)
+        public async Task<CategoriesType> AddIncomeCategory(CategoriesType category)
         {
             var transaction = await BeginTransaction();
 
@@ -54,7 +54,7 @@ namespace SE.Services.Services
             }
         }
 
-        public async Task<List<CategoriesTypeExpense>> GetIncomeCategory()
+        public async Task<List<CategoriesType>> GetIncomeCategory()
         {
             var data = await _context.CategoriesTypes.ToListAsync();
             return data;
@@ -66,7 +66,7 @@ namespace SE.Services.Services
             return data;
         }
 
-        public async Task<CategoriesTypeExpense> GetCategoryByIdIncome(int id)
+        public async Task<CategoriesType> GetCategoryByIdIncome(int id)
         {
             var data = await _context.CategoriesTypes.Where(x=> x.CategoryId  == id).FirstOrDefaultAsync();
             return data;

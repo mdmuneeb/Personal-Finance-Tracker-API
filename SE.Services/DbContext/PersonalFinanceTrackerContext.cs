@@ -15,7 +15,7 @@ public partial class PersonalFinanceTrackerContext : DbContext
     {
     }
 
-    public virtual DbSet<CategoriesTypeExpense> CategoriesTypes { get; set; }
+    public virtual DbSet<CategoriesType> CategoriesTypes { get; set; }
 
     public virtual DbSet<CategoryTypeExpense> CategoryTypeExpenses { get; set; }
 
@@ -37,7 +37,7 @@ public partial class PersonalFinanceTrackerContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<CategoriesTypeExpense>(entity =>
+        modelBuilder.Entity<CategoriesType>(entity =>
         {
             entity.HasKey(e => e.CategoryId).HasName("PK__Categori__19093A0B71D825C4");
 
@@ -63,6 +63,7 @@ public partial class PersonalFinanceTrackerContext : DbContext
             entity.Property(e => e.Deadlline).IsUnicode(false);
             entity.Property(e => e.DeleteTransaction).HasDefaultValue(false);
             entity.Property(e => e.DeletedDate).IsUnicode(false);
+            entity.Property(e => e.Done).HasDefaultValue(false);
             entity.Property(e => e.GoalName).IsUnicode(false);
             entity.Property(e => e.UpdatedDate).IsUnicode(false);
         });

@@ -12,5 +12,6 @@ namespace SE.Services.Inteface
         Task<Goal> AddGoal(Goal goalData);
         Task<List<Goal>> GetGoalByUserId(int userId);
         Task<Goal> UpdateGoalByGoalId(Goal newGoal);
+        Task<Goal> deleteGoal(int userId, int gId);
     }
 }

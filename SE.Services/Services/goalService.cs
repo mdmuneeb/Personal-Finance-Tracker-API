@@ -50,8 +50,8 @@ namespace SE.Services.Services
 
         public async Task<Goal> UpdateGoalByGoalId(Goal newGoal)
         {
-            var existingGoal = await GetGoalByGoalId((int)newGoal.UserId, newGoal.GoalId);
             var transaction = await BeginTransaction();
+            var existingGoal = await GetGoalByGoalId((int)newGoal.UserId, newGoal.GoalId);
 
             try
             {
@@ -74,6 +74,33 @@ namespace SE.Services.Services
                 return null;
             }
         }
-        
+        public async Task<Goal> deleteGoal(int userId, int gId)
+        {
+            var transaction = await BeginTransaction();
+            try
+            {
+                var existingGoal = await GetGoalByGoalId(userId, gId);
+
+                if (existingGoal != null)
+                {
+                    _context.Goals.Remove(existingGoal);
+                    await _context.SaveChangesAsync();
+                    await transaction.CommitAsync();
+                    return existingGoal;
+                }
+                else
+                {
+                    return null;
+                }
+
+
+            }
+            catch (Exception)
+            {
+                await transaction.RollbackAsync();
+                return null;
+            }
+        }
     }
+
 }

@@ -132,5 +132,29 @@ namespace SE.Services.Services
         }
 
 
+        public async Task<Transaction> DeleteTransaction(int TId, int UserId) 
+        {
+            var transaction = await BeginTransaction();
+            try
+            {
+                var existingTransaction = await GetTransactionByIdUserId(UserId, TId);
+                if (existingTransaction != null)
+                {
+                    _context.Remove(existingTransaction);
+                    await _context.SaveChangesAsync();
+                    await transaction.CommitAsync();
+                    return existingTransaction;
+                }
+                return null;
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                return null;
+                
+            }
+        }
+
+
     }
 }

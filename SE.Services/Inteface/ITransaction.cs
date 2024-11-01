@@ -16,5 +16,6 @@ namespace SE.Services.Inteface
         Task<List<TransactionDtoList>> GetAllTransaction(int id);
         Task<SE.Models.Transaction> UpdateTransaction(SE.Models.Transaction transactioData);
         Task<SE.Models.Transaction?> GetTransactionById(int? userId, int transactionId);
+        Task<SE.Models.Transaction> DeleteTransaction(int TId, int UserId);
     }
 }

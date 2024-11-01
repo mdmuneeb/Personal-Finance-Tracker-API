@@ -53,6 +53,27 @@
   },
   {
     "ContainingType": "SE_API.Controllers.GoalController",
+    "Method": "DeleteGoalPermanent",
+    "RelativePath": "api/Goal/DeleteGoalPermanently/{GId}/{UserId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "GId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.GoalController",
     "Method": "GetAllGoalByUserId",
     "RelativePath": "api/Goal/GetAllGoalByUserId/{userId}",
     "HttpMethod": "GET",
@@ -94,6 +115,27 @@
       {
         "Name": "goal",
         "Type": "SE.Models.Goal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.TransactionController",
+    "Method": "DeleteTransaction",
+    "RelativePath": "api/Transaction/DeleteTransactionPermanent/{UserId}/{TId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "D:\\5th semester\\SE Project\\SE API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|d:\\5th semester\\se project\\se api\\se api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|solutionrelative:se api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|d:\\5th semester\\se project\\se api\\se api\\controllers\\goalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|solutionrelative:se api\\controllers\\goalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\services\\goalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\services\\goalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|d:\\5th semester\\se project\\se api\\se api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|solutionrelative:se api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\inteface\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\inteface\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\inteface\\igoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\inteface\\igoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|d:\\5th semester\\se project\\se api\\se api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|solutionrelative:se api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\inteface\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,32 +55,8 @@
       "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\dbcontext\\personalfinancetrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\services\\goalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\services\\goalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|d:\\5th semester\\se project\\se api\\se api\\controllers\\goalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|solutionrelative:se api\\controllers\\goalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\inteface\\igoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\inteface\\igoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3C610AD-CC11-479F-83A5-0E105DEC31A9}|SE.Models\\SE.Models.csproj|d:\\5th semester\\se project\\se api\\se.models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3C610AD-CC11-479F-83A5-0E105DEC31A9}|SE.Models\\SE.Models.csproj|solutionrelative:se.models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|d:\\5th semester\\se project\\se api\\se api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|solutionrelative:se api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\inteface\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\inteface\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D646821-5D53-4828-8422-458B533AA810}|SE API\\SE API.csproj|d:\\5th semester\\se project\\se api\\se api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -76,10 +80,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C3C610AD-CC11-479F-83A5-0E105DEC31A9}|SE.Models\\SE.Models.csproj|d:\\5th semester\\se project\\se api\\se.models\\dtos\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3C610AD-CC11-479F-83A5-0E105DEC31A9}|SE.Models\\SE.Models.csproj|solutionrelative:se.models\\dtos\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|solutionrelative:se.services\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6277C013-33A7-4ECB-94D3-819D64C18F2D}|SE.Services\\SE.Services.csproj|d:\\5th semester\\se project\\se api\\se.services\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -121,50 +121,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryTypeExpense.cs",
-              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\CategoryTypeExpense.cs",
-              "RelativeDocumentMoniker": "SE.Models\\CategoryTypeExpense.cs",
-              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\CategoryTypeExpense.cs",
-              "RelativeToolTip": "SE.Models\\CategoryTypeExpense.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T08:46:35.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PersonalFinanceTrackerContext.cs",
-              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\DbContext\\PersonalFinanceTrackerContext.cs",
-              "RelativeDocumentMoniker": "SE.Services\\DbContext\\PersonalFinanceTrackerContext.cs",
-              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\DbContext\\PersonalFinanceTrackerContext.cs",
-              "RelativeToolTip": "SE.Services\\DbContext\\PersonalFinanceTrackerContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T08:45:46.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "goalService.cs",
               "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Services\\goalService.cs",
               "RelativeDocumentMoniker": "SE.Services\\Services\\goalService.cs",
               "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Services\\goalService.cs",
               "RelativeToolTip": "SE.Services\\Services\\goalService.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwDgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwEwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T18:18:11.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "GoalController.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\GoalController.cs",
+              "RelativeDocumentMoniker": "SE API\\Controllers\\GoalController.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\GoalController.cs*",
+              "RelativeToolTip": "SE API\\Controllers\\GoalController.cs*",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T18:19:04.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGoal.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Inteface\\IGoal.cs",
+              "RelativeDocumentMoniker": "SE.Services\\Inteface\\IGoal.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Inteface\\IGoal.cs",
+              "RelativeToolTip": "SE.Services\\Inteface\\IGoal.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvw4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T18:18:38.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "transactionService.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Services\\transactionService.cs",
+              "RelativeDocumentMoniker": "SE.Services\\Services\\transactionService.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Services\\transactionService.cs",
+              "RelativeToolTip": "SE.Services\\Services\\transactionService.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAwwIYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:39:09.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITransaction.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Inteface\\ITransaction.cs",
+              "RelativeDocumentMoniker": "SE.Services\\Inteface\\ITransaction.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Inteface\\ITransaction.cs",
+              "RelativeToolTip": "SE.Services\\Inteface\\ITransaction.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAewBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:39:28.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "SE API\\Controllers\\TransactionController.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "SE API\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAArwD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:40:02.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "SE API\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "SE API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T12:45:49.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "SE.Services\\Services\\BaseService.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Services\\BaseService.cs",
+              "RelativeToolTip": "SE.Services\\Services\\BaseService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T10:26:13.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "categoryService.cs",
               "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Services\\categoryService.cs",
               "RelativeDocumentMoniker": "SE.Services\\Services\\categoryService.cs",
@@ -177,20 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoriesType.cs",
-              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\CategoriesType.cs",
-              "RelativeDocumentMoniker": "SE.Models\\CategoriesType.cs",
-              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\CategoriesType.cs",
-              "RelativeToolTip": "SE.Models\\CategoriesType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T09:02:56.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ICategory.cs",
               "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Inteface\\ICategory.cs",
               "RelativeDocumentMoniker": "SE.Services\\Inteface\\ICategory.cs",
@@ -198,25 +250,47 @@
               "RelativeToolTip": "SE.Services\\Inteface\\ICategory.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAQwAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T12:45:27.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T12:45:27.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "SE API\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\CategoryController.cs*",
-              "RelativeToolTip": "SE API\\Controllers\\CategoryController.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBQAAABGAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "CategoriesType.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\CategoriesType.cs",
+              "RelativeDocumentMoniker": "SE.Models\\CategoriesType.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\CategoriesType.cs",
+              "RelativeToolTip": "SE.Models\\CategoriesType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T12:45:49.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T09:02:56.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
+              "Title": "PersonalFinanceTrackerContext.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\DbContext\\PersonalFinanceTrackerContext.cs",
+              "RelativeDocumentMoniker": "SE.Services\\DbContext\\PersonalFinanceTrackerContext.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\DbContext\\PersonalFinanceTrackerContext.cs",
+              "RelativeToolTip": "SE.Services\\DbContext\\PersonalFinanceTrackerContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:45:46.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryTypeExpense.cs",
+              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\CategoryTypeExpense.cs",
+              "RelativeDocumentMoniker": "SE.Models\\CategoryTypeExpense.cs",
+              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\CategoryTypeExpense.cs",
+              "RelativeToolTip": "SE.Models\\CategoryTypeExpense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:46:35.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\Program.cs",
               "RelativeDocumentMoniker": "SE API\\Program.cs",
@@ -224,77 +298,11 @@
               "RelativeToolTip": "SE API\\Program.cs",
               "ViewState": "AgIAADgAAAAAAAAAAADwv0cAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T19:49:04.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T19:49:04.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ITransaction.cs",
-              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Inteface\\ITransaction.cs",
-              "RelativeDocumentMoniker": "SE.Services\\Inteface\\ITransaction.cs",
-              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Inteface\\ITransaction.cs",
-              "RelativeToolTip": "SE.Services\\Inteface\\ITransaction.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAewBIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:39:28.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "transactionService.cs",
-              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Services\\transactionService.cs",
-              "RelativeDocumentMoniker": "SE.Services\\Services\\transactionService.cs",
-              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Services\\transactionService.cs",
-              "RelativeToolTip": "SE.Services\\Services\\transactionService.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAowHoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:39:09.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IGoal.cs",
-              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Inteface\\IGoal.cs",
-              "RelativeDocumentMoniker": "SE.Services\\Inteface\\IGoal.cs",
-              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Inteface\\IGoal.cs",
-              "RelativeToolTip": "SE.Services\\Inteface\\IGoal.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvw0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T18:18:38.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GoalController.cs",
-              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\GoalController.cs",
-              "RelativeDocumentMoniker": "SE API\\Controllers\\GoalController.cs",
-              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\GoalController.cs",
-              "RelativeToolTip": "SE API\\Controllers\\GoalController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAcwCQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T18:19:04.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TransactionController.cs",
-              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\TransactionController.cs",
-              "RelativeDocumentMoniker": "SE API\\Controllers\\TransactionController.cs",
-              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\TransactionController.cs",
-              "RelativeToolTip": "SE API\\Controllers\\TransactionController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:40:02.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Goal.cs",
               "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\Goal.cs",
               "RelativeDocumentMoniker": "SE.Models\\Goal.cs",
@@ -302,12 +310,11 @@
               "RelativeToolTip": "SE.Models\\Goal.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAkwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T19:04:50.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T19:04:50.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Transaction.cs",
               "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\Transaction.cs",
               "RelativeDocumentMoniker": "SE.Models\\Transaction.cs",
@@ -315,12 +322,11 @@
               "RelativeToolTip": "SE.Models\\Transaction.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:27:47.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T08:27:47.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "transactionService.cs",
               "DocumentMoniker": "C:\\Users\\Muneeb\\AppData\\Local\\SourceServer\\a0b0ba599f04d02b5e058f0046f9ee6ac038f5df975349bc811cfea79e80ca0d\\SE.Services\\Services\\transactionService.cs",
               "ToolTip": "C:\\Users\\Muneeb\\AppData\\Local\\SourceServer\\a0b0ba599f04d02b5e058f0046f9ee6ac038f5df975349bc811cfea79e80ca0d\\SE.Services\\Services\\transactionService.cs [Read Only]",
@@ -331,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UserTokenController.cs",
               "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE API\\Controllers\\UserTokenController.cs",
               "RelativeDocumentMoniker": "SE API\\Controllers\\UserTokenController.cs",
@@ -339,12 +345,11 @@
               "RelativeToolTip": "SE API\\Controllers\\UserTokenController.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAvwHAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T19:38:26.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T19:38:26.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "TransactionDTO.cs",
               "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\DTOS\\TransactionDTO.cs",
               "RelativeDocumentMoniker": "SE.Models\\DTOS\\TransactionDTO.cs",
@@ -352,12 +357,11 @@
               "RelativeToolTip": "SE.Models\\DTOS\\TransactionDTO.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAzwB0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:45:36.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T08:45:36.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UserModel.cs",
               "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Models\\DTOS\\UserModel.cs",
               "RelativeDocumentMoniker": "SE.Models\\DTOS\\UserModel.cs",
@@ -365,21 +369,7 @@
               "RelativeToolTip": "SE.Models\\DTOS\\UserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T18:24:13.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Services\\BaseService.cs",
-              "RelativeDocumentMoniker": "SE.Services\\Services\\BaseService.cs",
-              "ToolTip": "D:\\5th semester\\SE Project\\SE API\\SE.Services\\Services\\BaseService.cs",
-              "RelativeToolTip": "SE.Services\\Services\\BaseService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAADwvxMAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:26:13.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T18:24:13.014Z"
             },
             {
               "$type": "Document",
@@ -391,8 +381,7 @@
               "RelativeToolTip": "SE.Services\\Services\\UserService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:23:33.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T10:23:33.818Z"
             },
             {
               "$type": "Document",

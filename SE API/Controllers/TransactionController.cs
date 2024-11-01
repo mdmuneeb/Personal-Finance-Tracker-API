@@ -53,5 +53,13 @@ namespace SE_API.Controllers
             return Ok(data);
         }
 
+        [HttpDelete]
+        [Route("DeleteTransactionPermanent/{UserId}/{TId}")]
+        public async Task<IActionResult> DeleteTransaction(int TId, int UserId)
+        {
+            var data = await _transactionService.DeleteTransaction(TId, UserId);
+            return Ok(data);
+        } 
+
     }
 }

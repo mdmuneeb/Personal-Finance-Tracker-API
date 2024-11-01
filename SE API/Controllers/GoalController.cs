@@ -40,5 +40,14 @@ namespace SE_API.Controllers
             var data = await _goalService.UpdateGoalByGoalId(goal);
             return Ok(data);
         }
+
+        [HttpDelete]
+        [Route("DeleteGoalPermanently/{GId}/{UserId}")]
+        public async Task<IActionResult> DeleteGoalPermanent(int UserId, int GId)   
+        {
+            var data = await _goalService.deleteGoal(UserId, GId);
+            return Ok(data);
+        }
+
     }
 }

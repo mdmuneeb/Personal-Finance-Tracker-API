@@ -1,0 +1,54 @@
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\SE API.exe
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\SE API.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\SE API.runtimeconfig.json
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\SE API.pdb
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Azure.Identity.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.Identity.Client.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.Drawing.Common.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.Memory.Data.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.Runtime.Caching.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.Security.Permissions.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.Windows.Extensions.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\SE.Models.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\SE.Services.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\SE.Models.pdb
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\SE.Services.pdb
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\SE API.deps.json

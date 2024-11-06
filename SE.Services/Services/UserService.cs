@@ -22,15 +22,26 @@ namespace SE.Services.Services
             var transaction = await BeginTransaction();
             try
             {
-                user.Password = EncodePasswordToBase64(user.Password);
-                _context.UserInformations.Add(user);
-                await _context.SaveChangesAsync();
-                await transaction.CommitAsync();
-                user.Password = DecodeFrom64(user.Password);
+                var existingUser = await getUserByEmail(user?.Email);
+
+                if (existingUser ==null)
+                {
+                    user.Password = EncodePasswordToBase64(user.Password);
+                    _context.UserInformations.Add(user);
+                    await _context.SaveChangesAsync();
+                    await transaction.CommitAsync();
+                    user.Password = DecodeFrom64(user.Password);
+                    return new LoginResult
+                    {
+                        IsSuccess = true,
+                        Message = "User created Succesfully",
+                        User = user
+                    }; 
+                }
                 return new LoginResult
                 {
-                    IsSuccess = true,
-                    Message = "User created Succesfully",
+                    IsSuccess = false,
+                    Message = "User Already Exist",
                     User = user
                 };
             }
@@ -90,6 +101,12 @@ namespace SE.Services.Services
             utf8Decode.GetChars(todecode_byte, 0, todecode_byte.Length, decoded_char, 0);
             string result = new String(decoded_char);
             return result;
+        }
+
+        public async Task<UserInformation> getUserByEmail(string email)
+        {
+            var data = await _context.UserInformations.Where(x => x.Email == email).FirstOrDefaultAsync();
+            return data;
         }
     }
 }

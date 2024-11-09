@@ -121,6 +121,75 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SE_API.Controllers.RepeatedTransactionController",
+    "Method": "UpdateTransaction",
+    "RelativePath": "api/RepeatedTransaction/EditTransaction",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rdata",
+        "Type": "SE.Models.RepeatedTransaction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.RepeatedTransactionController",
+    "Method": "GetAllTransaction",
+    "RelativePath": "api/RepeatedTransaction/GetAllTransaction/{userID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.RepeatedTransactionController",
+    "Method": "GetTranaction",
+    "RelativePath": "api/RepeatedTransaction/GetTranaction/{userID}/{transactionData}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "transactionData",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SE_API.Controllers.RepeatedTransactionController",
+    "Method": "PostRepeatedTransaction",
+    "RelativePath": "api/RepeatedTransaction/PostRepeatedTransaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rdata",
+        "Type": "SE.Models.RepeatedTransaction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SE_API.Controllers.TransactionController",
     "Method": "DeleteTransaction",
     "RelativePath": "api/Transaction/DeleteTransactionPermanent/{UserId}/{TId}",

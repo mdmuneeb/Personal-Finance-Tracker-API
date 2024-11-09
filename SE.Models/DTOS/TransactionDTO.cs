@@ -49,7 +49,14 @@ namespace SE.Models.DTOS
     }
 
 
+    public class RTransactionDTO
+    {
+        public Boolean? Status { get; set; }
 
+        public RepeatedTransaction? transactionData { get; set; }
 
+        public String? Message { get; set; }
+
+    }
 
 }

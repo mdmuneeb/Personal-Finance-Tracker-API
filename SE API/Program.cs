@@ -1,3 +1,4 @@
+using Hangfire;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -18,7 +19,7 @@ builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "EMP-API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "PFT-API", Version = "v1" });
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
     {
         Name = "Authorization",
@@ -78,14 +79,36 @@ builder.Services.AddScoped<IUser, UserService>();
 builder.Services.AddScoped<ITransaction, transactionService>();
 builder.Services.AddScoped<ICategory, categoryService>();
 builder.Services.AddScoped<IGoal, goalService>();
+builder.Services.AddScoped<IRepeatedTransaction, RepeatedTransactionService>();
+
+
+var connectionString = builder.Configuration.GetConnectionString("AppConnection");
+
+builder.Services.AddHangfire(config =>
+    config.SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
+          .UseSimpleAssemblyNameTypeSerializer()
+          .UseRecommendedSerializerSettings()
+          .UseSqlServerStorage(connectionString, new Hangfire.SqlServer.SqlServerStorageOptions
+          {
+              CommandBatchMaxTimeout = TimeSpan.FromMinutes(5),
+              SlidingInvisibilityTimeout = TimeSpan.FromMinutes(5),
+              QueuePollInterval = TimeSpan.Zero,
+              UseRecommendedIsolationLevel = true,
+              DisableGlobalLocks = true
+          }));
+
+builder.Services.AddHangfireServer();
 
 var app = builder.Build();
+
+app.UseHangfireDashboard("/hangfire");
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(); 
 }
 
 app.UseSwagger();

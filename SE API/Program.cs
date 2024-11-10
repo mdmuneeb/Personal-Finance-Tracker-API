@@ -6,6 +6,7 @@ using Microsoft.OpenApi.Models;
 using SE.Models;
 using SE.Services.Inteface;
 using SE.Services.Services;
+using SE.Services.Services.Jobs;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -80,6 +81,7 @@ builder.Services.AddScoped<ITransaction, transactionService>();
 builder.Services.AddScoped<ICategory, categoryService>();
 builder.Services.AddScoped<IGoal, goalService>();
 builder.Services.AddScoped<IRepeatedTransaction, RepeatedTransactionService>();
+builder.Services.AddScoped<TransactionJob>();
 
 
 var connectionString = builder.Configuration.GetConnectionString("AppConnection");
@@ -104,7 +106,15 @@ var app = builder.Build();
 app.UseHangfireDashboard("/hangfire");
 
 
-// Configure the HTTP request pipeline.
+using (var scope = app.Services.CreateScope())
+{
+    var transactionJob = scope.ServiceProvider.GetRequiredService<TransactionJob>();
+    RecurringJob.AddOrUpdate(
+        "transfer-repeated-transactions",
+        () => transactionJob.TransferRepeatedTransactions(),
+        Cron.Daily); 
+}
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SE.Models;
 using SE.Services.Inteface;
@@ -6,6 +7,7 @@ using System.Runtime.InteropServices;
 
 namespace SE_API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class GoalController : ControllerBase

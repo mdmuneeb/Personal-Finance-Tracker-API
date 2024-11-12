@@ -6,6 +6,10 @@ D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\SE API.ru
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\SE API.pdb
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Azure.Identity.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Hangfire.AspNetCore.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Hangfire.Core.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Hangfire.NetCore.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Hangfire.SqlServer.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
@@ -24,6 +28,7 @@ D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -35,6 +40,20 @@ D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.Ru
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.Security.Permissions.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\System.Windows.Extensions.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\ca\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\de\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\es\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\fa\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\fr\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\nb\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\nl\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\pt-BR\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\pt-PT\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\pt\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\sv\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\tr-TR\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\zh-TW\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\zh\Hangfire.Core.resources.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\PubTmp\Out\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll

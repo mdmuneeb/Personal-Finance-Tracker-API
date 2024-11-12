@@ -57,9 +57,28 @@ namespace SE.Services.Services
             }
         }
 
-        public async Task<List<RepeatedTransaction>> GetAllRepeatedTransactionList(int userId)
+        public async Task<List<TransactionDtoList>> GetAllRepeatedTransactionList(int userId)
         {
-            var data = await _context.RepeatedTransactions.Where(x=>x.UserId == userId).ToListAsync();
+            var data = await _context.RepeatedTransactions.Where(x=>x.UserId == userId)
+                .Select(transaction => new TransactionDtoList
+                {
+                    TransactionId = transaction.Id,
+                    Amount = transaction.Amount,
+                    Description = transaction.Description,
+                    CategoryName = transaction.TransactionTypeId == 1
+                        ? _context.CategoriesTypes.FirstOrDefault(c => c.CategoryId == transaction.CategoryId).CategoryName
+                        : _context.CategoryTypeExpenses.FirstOrDefault(c => c.CategoryId == transaction.CategoryId).CategoryName,
+                    TransactionName = _context.TransactionTypes.FirstOrDefault(c => c.TransactionTypeId == transaction.TransactionTypeId).TransactionName,
+                    TransactionTypeId = transaction.TransactionTypeId,
+                    UserId = transaction.UserId,
+                    TransactionDate = transaction.TransactionDate,
+                    CategoryId = transaction.CategoryId,
+                    UpdatedDate = transaction.UpdatedDate,
+                    DeletedDate = transaction.DeletedDate,
+                    DeleteTransaction = transaction.DeleteTransaction
+                })
+                .ToListAsync();
+
             return data;
         } 
 

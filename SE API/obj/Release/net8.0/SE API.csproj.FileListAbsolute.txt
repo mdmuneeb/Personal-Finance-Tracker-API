@@ -140,3 +140,22 @@ D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\refint\SE API.dll
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\SE API.pdb
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\SE API.genruntimeconfig.cache
 D:\5th semester\SE Project\SE API\SE API\obj\Release\net8.0\ref\SE API.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\Hangfire.AspNetCore.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\Hangfire.Core.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\Hangfire.NetCore.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\Hangfire.SqlServer.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\Newtonsoft.Json.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\ca\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\de\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\es\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\fa\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\fr\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\nb\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\nl\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\pt-BR\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\pt-PT\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\pt\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\sv\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\tr-TR\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\zh-TW\Hangfire.Core.resources.dll
+D:\5th semester\SE Project\SE API\SE API\bin\Release\net8.0\zh\Hangfire.Core.resources.dll
